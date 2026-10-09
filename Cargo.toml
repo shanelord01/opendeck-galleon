@@ -1,6 +1,6 @@
 [package]
 name = "opendeck-galleon"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "OpenDeck device plugin for the Stream Deck built into the Corsair Galleon 100 SD keyboard"
 license = "GPL-3.0-or-later"

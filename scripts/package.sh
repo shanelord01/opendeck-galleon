@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Builds the plugin and assembles dist/net.shasam.galleon100sd.sdPlugin and a
+# Builds the plugin and assembles dist/io.github.shanelord01.galleon100sd.sdPlugin and a
 # zip of it that OpenDeck can install from file.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-PLUGIN=net.shasam.galleon100sd.sdPlugin
+PLUGIN=io.github.shanelord01.galleon100sd.sdPlugin
 TARGET=x86_64-unknown-linux-musl
 # OpenDeck picks the binary by its own build triple; the static musl binary
 # runs under any glibc and inside the Flatpak sandbox.

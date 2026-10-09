@@ -22,7 +22,7 @@ The Corsair Galleon 100 SD keyboard has a Stream Deck built in: 12 LCD keys, two
 
 From OpenDeck: open **Plugins**, find **Corsair Galleon 100 SD** and install it.
 
-From a release: download `net.shasam.galleon100sd.sdPlugin.zip` from the [releases page](https://github.com/shanelord01/opendeck-galleon/releases) and choose **Install from file** in OpenDeck's plugin manager.
+From a release: download `io.github.shanelord01.galleon100sd.sdPlugin.zip` from the [releases page](https://github.com/shanelord01/opendeck-galleon/releases) and choose **Install from file** in OpenDeck's plugin manager.
 
 If the deck doesn't appear in the device list, restart OpenDeck.
 
@@ -60,7 +60,7 @@ rustup target add x86_64-unknown-linux-musl
 scripts/package.sh
 ```
 
-This writes `dist/net.shasam.galleon100sd.sdPlugin` and a zip of it. Copy the folder into OpenDeck's `plugins` folder (`~/.config/opendeck/plugins`, or `~/.var/app/me.amankhanna.opendeck/config/opendeck/plugins` for the Flatpak) and restart OpenDeck. Its log is in OpenDeck's `logs/plugins/net.shasam.galleon100sd.sdPlugin.log`.
+This writes `dist/io.github.shanelord01.galleon100sd.sdPlugin` and a zip of it. Copy the folder into OpenDeck's `plugins` folder (`~/.config/opendeck/plugins`, or `~/.var/app/me.amankhanna.opendeck/config/opendeck/plugins` for the Flatpak) and restart OpenDeck. Its log is in OpenDeck's `logs/plugins/io.github.shanelord01.galleon100sd.sdPlugin.log`.
 
 `tools/make_icons.py` redraws the key icons and the plugin icon (it needs Python and Pillow).
 

@@ -123,7 +123,7 @@ struct KeyAction;
 
 #[async_trait]
 impl Action for KeyAction {
-	const UUID: ActionUuid = "net.shasam.galleon100sd.key";
+	const UUID: ActionUuid = "io.github.shanelord01.galleon100sd.key";
 	type Settings = KeySettings;
 
 	async fn key_down(
