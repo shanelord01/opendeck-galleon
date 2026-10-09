@@ -1,0 +1,38 @@
+{
+	"Name": "Corsair Galleon 100 SD",
+	"Description": "Adds the Stream Deck built into the Corsair Galleon 100 SD keyboard to OpenDeck: 12 LCD keys, two dials and the top screen. While the deck's profile is empty, the keyboard keeps its own hardware mode.",
+	"Author": "Shane Lord",
+	"Version": "0.1.0",
+	"Icon": "icons/plugin",
+	"Category": "Corsair Galleon 100 SD",
+	"CategoryIcon": "icons/plugin",
+	"CodePaths": {
+		"x86_64-unknown-linux-gnu": "x86_64-unknown-linux-gnu/bin/opendeck-galleon"
+	},
+	"CodePathLin": "x86_64-unknown-linux-gnu/bin/opendeck-galleon",
+	"DeviceNamespace": "cg",
+	"OS": [
+		{
+			"Platform": "linux"
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Key",
+			"UUID": "net.shasam.galleon100sd.key",
+			"Icon": "icons/keys/key",
+			"Tooltip": "Press a numpad, media or volume key",
+			"Controllers": [
+				"Keypad"
+			],
+			"PropertyInspectorPath": "pi/key.html",
+			"States": [
+				{
+					"Image": "icons/keys/key",
+					"ShowTitle": false
+				}
+			]
+		}
+	],
+	"URL": "https://github.com/shanelord01/opendeck-galleon"
+}

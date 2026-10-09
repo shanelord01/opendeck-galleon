@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 8px;
+	font: 14px ui-sans-serif, system-ui, sans-serif;
+	color: #e5e5e5;
+	background: transparent;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+select,
+input {
+	padding: 4px 6px;
+	border: 1px solid #555;
+	border-radius: 4px;
+	color: inherit;
+	background: #2a2a2a;
+	font: inherit;
+}
+
+.hint {
+	margin: 8px 0 0;
+	color: #a3a3a3;
+	font-size: 12px;
+}

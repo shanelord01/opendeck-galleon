@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="pi.css" />
+	</head>
+	<body>
+		<label>
+			Key
+			<select id="key">
+				<option value="">Choose a key</option>
+				<optgroup label="Media">
+					<option value="KEY_PREVIOUSSONG">Previous track</option>
+					<option value="KEY_PLAYPAUSE">Play / pause</option>
+					<option value="KEY_NEXTSONG">Next track</option>
+					<option value="KEY_STOPCD">Stop</option>
+					<option value="KEY_MICMUTE">Microphone mute</option>
+					<option value="KEY_MUTE">Mute</option>
+					<option value="KEY_VOLUMEDOWN">Volume down</option>
+					<option value="KEY_VOLUMEUP">Volume up</option>
+				</optgroup>
+				<optgroup label="Numpad">
+					<option value="KEY_KP0">0</option>
+					<option value="KEY_KP1">1</option>
+					<option value="KEY_KP2">2</option>
+					<option value="KEY_KP3">3</option>
+					<option value="KEY_KP4">4</option>
+					<option value="KEY_KP5">5</option>
+					<option value="KEY_KP6">6</option>
+					<option value="KEY_KP7">7</option>
+					<option value="KEY_KP8">8</option>
+					<option value="KEY_KP9">9</option>
+					<option value="KEY_KPDOT">.</option>
+					<option value="KEY_KPSLASH">/</option>
+					<option value="KEY_KPASTERISK">*</option>
+					<option value="KEY_KPMINUS">-</option>
+					<option value="KEY_KPPLUS">+</option>
+					<option value="KEY_KPEQUAL">=</option>
+					<option value="KEY_KPENTER">Enter</option>
+				</optgroup>
+			</select>
+		</label>
+		<script src="pi.js"></script>
+		<script>
+			bindSetting("key");
+		</script>
+	</body>
+</html>

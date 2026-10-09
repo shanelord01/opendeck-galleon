@@ -1,0 +1,3 @@
+# Lets the person at the seat use the Stream Deck module of the Corsair
+# Galleon 100 SD (USB 1b1c:2b18) through hidraw, which the OpenDeck plugin needs.
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="2b18", TAG+="uaccess"
